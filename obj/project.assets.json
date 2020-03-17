@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Panni\\source\\repos\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
-      "projectName": "ConsoleApp1",
-      "projectPath": "C:\\Users\\Panni\\source\\repos\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\Users\\Panni\\source\\repos\\ConsoleApp1\\ConsoleApp1\\LineDetection.csproj",
+      "projectName": "LineDetection",
+      "projectPath": "C:\\Users\\Panni\\source\\repos\\ConsoleApp1\\ConsoleApp1\\LineDetection.csproj",
       "packagesPath": "C:\\Users\\Panni\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Panni\\source\\repos\\ConsoleApp1\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",

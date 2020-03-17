@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "LineDetection": {
+      "commandName": "Project",
+      "commandLineArgs": "\"E:\\Documents\\cognex\\Find Lines\""
+    }
+  }
+}
