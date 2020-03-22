@@ -12,7 +12,7 @@ namespace LineDetection
         {
             string path = Directory.GetCurrentDirectory()+"\\..\\..\\..\\Find Lines";
             string[] filePaths = { };
-            if (args.Length == 0)
+            if (args.Length == 0 && Directory.Exists(path))
             {
                 filePaths = Directory.GetFiles(path);
             }
@@ -21,7 +21,7 @@ namespace LineDetection
                 filePaths = Directory.GetFiles(args[0]);
             } else
             {
-                Console.WriteLine("{0} is not a valid file or directory.", (args[0]));
+                Console.WriteLine("No valid file or directory was set.");
             }
 
             foreach (string filePath in filePaths)
