@@ -10,12 +10,21 @@ namespace LineDetection
     {
         static void Main(string[] args)
         {
-
-            if (Directory.Exists(args[0]))
+            string path = Directory.GetCurrentDirectory()+"\\..\\..\\..\\Find Lines";
+            string[] filePaths = { };
+            if (args.Length == 0)
             {
-                // This path is a directory
-                var filePaths = Directory.GetFiles(args[0]);
-                foreach (string filePath in filePaths)
+                filePaths = Directory.GetFiles(path);
+            }
+            else if (Directory.Exists(args[0]))
+            {
+                filePaths = Directory.GetFiles(args[0]);
+            } else
+            {
+                Console.WriteLine("{0} is not a valid file or directory.", (args[0]));
+            }
+
+            foreach (string filePath in filePaths)
                 {
                     if (filePath.Contains("img"))
                     {
@@ -37,12 +46,6 @@ namespace LineDetection
 
                     }
                 }
-            }
-            else
-            {
-                Console.WriteLine("{0} is not a valid file or directory.", (args[0]));
-            }
-            //TODO make possible to add filenames as arguments...!
             
         }
 

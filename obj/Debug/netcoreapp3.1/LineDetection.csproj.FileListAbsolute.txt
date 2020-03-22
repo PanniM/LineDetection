@@ -4,7 +4,6 @@ C:\Users\Panni\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\Line
 C:\Users\Panni\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\LineDetection.runtimeconfig.dev.json
 C:\Users\Panni\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\LineDetection.dll
 C:\Users\Panni\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\LineDetection.pdb
-C:\Users\Panni\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\LineDetection.csprojAssemblyReference.cache
 C:\Users\Panni\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\LineDetection.csproj.CoreCompileInputs.cache
 C:\Users\Panni\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\LineDetection.AssemblyInfoInputs.cache
 C:\Users\Panni\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\LineDetection.AssemblyInfo.cs
